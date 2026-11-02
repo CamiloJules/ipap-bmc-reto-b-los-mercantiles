@@ -116,7 +116,7 @@ Las versiones exactas con las que se generaron los resultados están en [docs/RE
 
 1. **Descargar el repositorio.** En GitHub: botón verde **Code → Download ZIP**, y descomprimir. O con git:
    ```bash
-   git clone <URL-del-repositorio>
+   git clone https://github.com/CamiloJules/ipap-bmc-reto-b-los-mercantiles/tree/main
    ```
 2. **Abrir el proyecto.** Doble clic en `ipap-bmc-reto-b.Rproj`. RStudio se abre con la carpeta del repositorio como carpeta de trabajo, así que la ruta `datos/IPAP_De_completa.xlsx` funciona sin cambiar nada.
 3. **Abrir `ipap_concurso_final.R` y correrlo completo**, con el botón **Source** o con `Ctrl + Shift + S` (`Cmd + Shift + S` en Mac).
