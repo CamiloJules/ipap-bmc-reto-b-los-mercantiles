@@ -42,7 +42,9 @@ packageVersion("xgboost")   # o cualquier otro paquete
 
 ## Qué puede cambiar entre computadores
 
-- **Versión de `xgboost`.** Es la fuente de diferencias más probable. Los modelos XGBoost usan muestreo aleatorio (`subsample = 0.8` y `colsample_bytree = 0.8`), y la forma de generar esos números aleatorios cambia entre versiones. En las versiones 1.x el paquete de R ignora el parámetro `seed` y usa el generador de R (`set.seed`); en las 3.x usa `seed`. Por eso cambian los modelos XGBoost y los promedios que los incluyen. Como ejemplo, el mejor MAPE de validación de XGBoost sin exógenas, con la misma base y el mismo código, fue:
+- **Versión de `xgboost`.** Es la fuente de diferencias más probable, y se recomienda la versión 2.0 o más reciente (CRAN instala hoy la 3.x). Hay dos razones:
+  - **Semilla.** Los modelos XGBoost usan muestreo aleatorio (`subsample = 0.8` y `colsample_bytree = 0.8`). En las versiones 1.x el paquete de R ignora el parámetro `seed` y usa el generador de R, así que una misma especificación podía dar un MAPE en la búsqueda de hiperparámetros y otro en la evaluación. Por eso el código llama `set.seed(SEED + h)` antes de cada `xgb.train`. Con `xgboost` 3.x esa línea no cambia ningún resultado (se comprobó), y con 1.x hace que la búsqueda y la evaluación coincidan.
+  - **Punto de partida.** Antes de la versión 2.0, XGBoost empieza todos los árboles desde 0.5. Aquí el objetivo es el cambio del logaritmo del IPAP, que es cercano a 0, así que con pocas rondas el pronóstico queda sesgado. Desde la 2.0 ese punto de partida se estima con los datos. Por eso 1.x y 3.x dan resultados distintos en XGBoost aunque la semilla esté bien fijada. Como ejemplo, el mejor MAPE de validación de XGBoost sin exógenas, con la misma base y el mismo código, fue:
 
   | Versión de `xgboost` | Mejor MAPE de validación, XGBoost sin exógenas |
   |---|---:|
