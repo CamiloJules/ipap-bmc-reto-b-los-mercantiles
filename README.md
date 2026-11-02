@@ -176,4 +176,6 @@ La lista completa de referencias está al comienzo del script. Las principales:
 ## Equipo
 
 - Juan Camilo Jules Oviedo
-- _(completar con los demás integrantes del equipo)_
+- Angel Esteban Bonilla Escamilla
+- David Steven Parra Almeida
+- 
