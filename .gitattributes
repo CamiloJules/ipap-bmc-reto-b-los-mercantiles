@@ -1,0 +1,9 @@
+# Normaliza los finales de línea entre Windows, Mac y Linux
+* text=auto
+*.R text eol=lf
+*.md text eol=lf
+*.csv text eol=lf
+
+# Archivos binarios: no se comparan como texto
+*.xlsx binary
+*.png binary
