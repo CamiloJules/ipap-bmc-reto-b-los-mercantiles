@@ -1,0 +1,43 @@
+"Modelo","Horizonte","Grupo","Participacion_pct"
+"Random Forest + exog",1,"Clima (lluvia)",7
+"XGBoost + exog",1,"Clima (lluvia)",6.1
+"Random Forest + exog",6,"Clima (lluvia)",24.1
+"XGBoost + exog",6,"Clima (lluvia)",28.8
+"Random Forest + exog",12,"Clima (lluvia)",16.6
+"XGBoost + exog",12,"Clima (lluvia)",20.1
+"Random Forest + exog",1,"FAO alimentos",9.6
+"XGBoost + exog",1,"FAO alimentos",7.5
+"Random Forest + exog",6,"FAO alimentos",21
+"XGBoost + exog",6,"FAO alimentos",13.2
+"Random Forest + exog",12,"FAO alimentos",28.1
+"XGBoost + exog",12,"FAO alimentos",31.1
+"Random Forest + exog",1,"Insumos (fertilizantes)",19.9
+"XGBoost + exog",1,"Insumos (fertilizantes)",18.6
+"Random Forest + exog",6,"Insumos (fertilizantes)",10.6
+"XGBoost + exog",6,"Insumos (fertilizantes)",18.2
+"Random Forest + exog",12,"Insumos (fertilizantes)",12.6
+"XGBoost + exog",12,"Insumos (fertilizantes)",16.2
+"Random Forest + exog",1,"IPC no durables",15.1
+"XGBoost + exog",1,"IPC no durables",21.2
+"Random Forest + exog",6,"IPC no durables",4.1
+"XGBoost + exog",6,"IPC no durables",2.7
+"Random Forest + exog",12,"IPC no durables",7.2
+"XGBoost + exog",12,"IPC no durables",4.3
+"Random Forest + exog",1,"ISE agro",1.1
+"XGBoost + exog",1,"ISE agro",1.5
+"Random Forest + exog",6,"ISE agro",7.2
+"XGBoost + exog",6,"ISE agro",1.4
+"Random Forest + exog",12,"ISE agro",24.7
+"XGBoost + exog",12,"ISE agro",17
+"Random Forest + exog",1,"Propias del IPAP (rezagos y calendario)",37.8
+"XGBoost + exog",1,"Propias del IPAP (rezagos y calendario)",33.4
+"Random Forest + exog",6,"Propias del IPAP (rezagos y calendario)",25
+"XGBoost + exog",6,"Propias del IPAP (rezagos y calendario)",25.9
+"Random Forest + exog",12,"Propias del IPAP (rezagos y calendario)",3.6
+"XGBoost + exog",12,"Propias del IPAP (rezagos y calendario)",4.3
+"Random Forest + exog",1,"TRM",9.5
+"XGBoost + exog",1,"TRM",11.7
+"Random Forest + exog",6,"TRM",8.1
+"XGBoost + exog",6,"TRM",9.7
+"Random Forest + exog",12,"TRM",7.1
+"XGBoost + exog",12,"TRM",6.9

@@ -1,0 +1,9 @@
+"Escenario","MAPE_validacion","Cambio_vs_base"
+"base (grupos finales)",6.88,0
+"quitar trm",7.08,0.2
+"quitar ipc",6.92,0.04
+"quitar ise",6.61,-0.26
+"quitar fao",6.63,-0.24
+"quitar clima",7.23,0.36
+"quitar insumos",7.14,0.27
+"sin exógenas",8.18,1.3

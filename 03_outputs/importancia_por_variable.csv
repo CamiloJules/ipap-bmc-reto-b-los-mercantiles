@@ -1,0 +1,274 @@
+"Modelo","Horizonte","Variable","Grupo","Participacion_pct"
+"Random Forest + exog",1,"d_l0","Propias del IPAP (rezagos y calendario)",0.7
+"Random Forest + exog",1,"d_l1","Propias del IPAP (rezagos y calendario)",1.03
+"Random Forest + exog",1,"d_l2","Propias del IPAP (rezagos y calendario)",1.28
+"Random Forest + exog",1,"d_ma3","Propias del IPAP (rezagos y calendario)",1.91
+"Random Forest + exog",1,"d_ma6","Propias del IPAP (rezagos y calendario)",2.9
+"Random Forest + exog",1,"d_ma12","Propias del IPAP (rezagos y calendario)",2.54
+"Random Forest + exog",1,"dev_nivel","Propias del IPAP (rezagos y calendario)",1.04
+"Random Forest + exog",1,"m_sin","Propias del IPAP (rezagos y calendario)",10.28
+"Random Forest + exog",1,"m_cos","Propias del IPAP (rezagos y calendario)",16.16
+"Random Forest + exog",1,"trm_d_l0","TRM",4.35
+"Random Forest + exog",1,"trm_d_l1","TRM",0
+"Random Forest + exog",1,"trm_d_l2","TRM",1.29
+"Random Forest + exog",1,"trm_d_l3","TRM",0
+"Random Forest + exog",1,"trm_d_l4","TRM",0
+"Random Forest + exog",1,"trm_d_l5","TRM",0
+"Random Forest + exog",1,"trm_a12","TRM",2.3
+"Random Forest + exog",1,"trm_dev12","TRM",1.53
+"Random Forest + exog",1,"ipc_d_l0","IPC no durables",11.85
+"Random Forest + exog",1,"ipc_d_l1","IPC no durables",0.43
+"Random Forest + exog",1,"ipc_d_l2","IPC no durables",0.98
+"Random Forest + exog",1,"ipc_d_l3","IPC no durables",0
+"Random Forest + exog",1,"ipc_d_l4","IPC no durables",0.23
+"Random Forest + exog",1,"ipc_d_l5","IPC no durables",0.97
+"Random Forest + exog",1,"ipc_a12","IPC no durables",0.59
+"Random Forest + exog",1,"ise_a12_l0","ISE agro",0.54
+"Random Forest + exog",1,"ise_a12_l3","ISE agro",0.56
+"Random Forest + exog",1,"fao_total_d_l0","FAO alimentos",0
+"Random Forest + exog",1,"fao_total_a12","FAO alimentos",2.53
+"Random Forest + exog",1,"fao_carne_a12","FAO alimentos",1.18
+"Random Forest + exog",1,"fao_lacteos_a12","FAO alimentos",0
+"Random Forest + exog",1,"fao_cereales_a12","FAO alimentos",1.87
+"Random Forest + exog",1,"fao_aceites_a12","FAO alimentos",4.03
+"Random Forest + exog",1,"fao_azucar_a12","FAO alimentos",0
+"Random Forest + exog",1,"clima_anom_l0","Clima (lluvia)",0.02
+"Random Forest + exog",1,"clima_3m","Clima (lluvia)",1.26
+"Random Forest + exog",1,"clima_6m","Clima (lluvia)",5.76
+"Random Forest + exog",1,"insumos_fert_d_l0","Insumos (fertilizantes)",0.42
+"Random Forest + exog",1,"insumos_fert_d_l1","Insumos (fertilizantes)",1.4
+"Random Forest + exog",1,"insumos_fert_d_l2","Insumos (fertilizantes)",1.14
+"Random Forest + exog",1,"insumos_fert_d_l3","Insumos (fertilizantes)",0.64
+"Random Forest + exog",1,"insumos_fert_d_l4","Insumos (fertilizantes)",0.03
+"Random Forest + exog",1,"insumos_fert_d_l5","Insumos (fertilizantes)",6.79
+"Random Forest + exog",1,"insumos_fert_a12","Insumos (fertilizantes)",6.36
+"Random Forest + exog",1,"insumos_petroleo_a12","Insumos (fertilizantes)",3.13
+"Random Forest + exog",6,"d_l0","Propias del IPAP (rezagos y calendario)",0
+"Random Forest + exog",6,"d_l1","Propias del IPAP (rezagos y calendario)",0.2
+"Random Forest + exog",6,"d_l2","Propias del IPAP (rezagos y calendario)",0.55
+"Random Forest + exog",6,"d_ma3","Propias del IPAP (rezagos y calendario)",0.95
+"Random Forest + exog",6,"d_ma6","Propias del IPAP (rezagos y calendario)",2.22
+"Random Forest + exog",6,"d_ma12","Propias del IPAP (rezagos y calendario)",1.07
+"Random Forest + exog",6,"dev_nivel","Propias del IPAP (rezagos y calendario)",1.13
+"Random Forest + exog",6,"m_sin","Propias del IPAP (rezagos y calendario)",4.63
+"Random Forest + exog",6,"m_cos","Propias del IPAP (rezagos y calendario)",14.27
+"Random Forest + exog",6,"trm_d_l0","TRM",0.41
+"Random Forest + exog",6,"trm_d_l1","TRM",0
+"Random Forest + exog",6,"trm_d_l2","TRM",0
+"Random Forest + exog",6,"trm_d_l3","TRM",0.18
+"Random Forest + exog",6,"trm_d_l4","TRM",0.15
+"Random Forest + exog",6,"trm_d_l5","TRM",0.29
+"Random Forest + exog",6,"trm_a12","TRM",3.8
+"Random Forest + exog",6,"trm_dev12","TRM",3.23
+"Random Forest + exog",6,"ipc_d_l0","IPC no durables",0.46
+"Random Forest + exog",6,"ipc_d_l1","IPC no durables",0.35
+"Random Forest + exog",6,"ipc_d_l2","IPC no durables",0.58
+"Random Forest + exog",6,"ipc_d_l3","IPC no durables",0.54
+"Random Forest + exog",6,"ipc_d_l4","IPC no durables",0.83
+"Random Forest + exog",6,"ipc_d_l5","IPC no durables",0.44
+"Random Forest + exog",6,"ipc_a12","IPC no durables",0.86
+"Random Forest + exog",6,"ise_a12_l0","ISE agro",1.94
+"Random Forest + exog",6,"ise_a12_l3","ISE agro",5.24
+"Random Forest + exog",6,"fao_total_d_l0","FAO alimentos",0.39
+"Random Forest + exog",6,"fao_total_a12","FAO alimentos",4.77
+"Random Forest + exog",6,"fao_carne_a12","FAO alimentos",5.55
+"Random Forest + exog",6,"fao_lacteos_a12","FAO alimentos",0.88
+"Random Forest + exog",6,"fao_cereales_a12","FAO alimentos",4.86
+"Random Forest + exog",6,"fao_aceites_a12","FAO alimentos",3.66
+"Random Forest + exog",6,"fao_azucar_a12","FAO alimentos",0.9
+"Random Forest + exog",6,"clima_anom_l0","Clima (lluvia)",1.37
+"Random Forest + exog",6,"clima_3m","Clima (lluvia)",11.35
+"Random Forest + exog",6,"clima_6m","Clima (lluvia)",11.38
+"Random Forest + exog",6,"insumos_fert_d_l0","Insumos (fertilizantes)",0.61
+"Random Forest + exog",6,"insumos_fert_d_l1","Insumos (fertilizantes)",0.3
+"Random Forest + exog",6,"insumos_fert_d_l2","Insumos (fertilizantes)",0.29
+"Random Forest + exog",6,"insumos_fert_d_l3","Insumos (fertilizantes)",0.61
+"Random Forest + exog",6,"insumos_fert_d_l4","Insumos (fertilizantes)",0.34
+"Random Forest + exog",6,"insumos_fert_d_l5","Insumos (fertilizantes)",0.6
+"Random Forest + exog",6,"insumos_fert_a12","Insumos (fertilizantes)",6.91
+"Random Forest + exog",6,"insumos_petroleo_a12","Insumos (fertilizantes)",0.89
+"Random Forest + exog",12,"d_l0","Propias del IPAP (rezagos y calendario)",0.24
+"Random Forest + exog",12,"d_l1","Propias del IPAP (rezagos y calendario)",0
+"Random Forest + exog",12,"d_l2","Propias del IPAP (rezagos y calendario)",0
+"Random Forest + exog",12,"d_ma3","Propias del IPAP (rezagos y calendario)",0.38
+"Random Forest + exog",12,"d_ma6","Propias del IPAP (rezagos y calendario)",0.45
+"Random Forest + exog",12,"d_ma12","Propias del IPAP (rezagos y calendario)",1.16
+"Random Forest + exog",12,"dev_nivel","Propias del IPAP (rezagos y calendario)",0.92
+"Random Forest + exog",12,"m_sin","Propias del IPAP (rezagos y calendario)",0.27
+"Random Forest + exog",12,"m_cos","Propias del IPAP (rezagos y calendario)",0.23
+"Random Forest + exog",12,"trm_d_l0","TRM",0.08
+"Random Forest + exog",12,"trm_d_l1","TRM",0.07
+"Random Forest + exog",12,"trm_d_l2","TRM",0.07
+"Random Forest + exog",12,"trm_d_l3","TRM",0.02
+"Random Forest + exog",12,"trm_d_l4","TRM",0
+"Random Forest + exog",12,"trm_d_l5","TRM",0.05
+"Random Forest + exog",12,"trm_a12","TRM",3.02
+"Random Forest + exog",12,"trm_dev12","TRM",3.83
+"Random Forest + exog",12,"ipc_d_l0","IPC no durables",0.22
+"Random Forest + exog",12,"ipc_d_l1","IPC no durables",0.4
+"Random Forest + exog",12,"ipc_d_l2","IPC no durables",0.13
+"Random Forest + exog",12,"ipc_d_l3","IPC no durables",0.23
+"Random Forest + exog",12,"ipc_d_l4","IPC no durables",0.37
+"Random Forest + exog",12,"ipc_d_l5","IPC no durables",0.61
+"Random Forest + exog",12,"ipc_a12","IPC no durables",5.25
+"Random Forest + exog",12,"ise_a12_l0","ISE agro",7.58
+"Random Forest + exog",12,"ise_a12_l3","ISE agro",17.16
+"Random Forest + exog",12,"fao_total_d_l0","FAO alimentos",0.15
+"Random Forest + exog",12,"fao_total_a12","FAO alimentos",6.56
+"Random Forest + exog",12,"fao_carne_a12","FAO alimentos",2.19
+"Random Forest + exog",12,"fao_lacteos_a12","FAO alimentos",5.83
+"Random Forest + exog",12,"fao_cereales_a12","FAO alimentos",5.99
+"Random Forest + exog",12,"fao_aceites_a12","FAO alimentos",5.68
+"Random Forest + exog",12,"fao_azucar_a12","FAO alimentos",1.67
+"Random Forest + exog",12,"clima_anom_l0","Clima (lluvia)",1.39
+"Random Forest + exog",12,"clima_3m","Clima (lluvia)",6.31
+"Random Forest + exog",12,"clima_6m","Clima (lluvia)",8.93
+"Random Forest + exog",12,"insumos_fert_d_l0","Insumos (fertilizantes)",0.5
+"Random Forest + exog",12,"insumos_fert_d_l1","Insumos (fertilizantes)",0.44
+"Random Forest + exog",12,"insumos_fert_d_l2","Insumos (fertilizantes)",0.31
+"Random Forest + exog",12,"insumos_fert_d_l3","Insumos (fertilizantes)",0.24
+"Random Forest + exog",12,"insumos_fert_d_l4","Insumos (fertilizantes)",0.35
+"Random Forest + exog",12,"insumos_fert_d_l5","Insumos (fertilizantes)",0.36
+"Random Forest + exog",12,"insumos_fert_a12","Insumos (fertilizantes)",6.5
+"Random Forest + exog",12,"insumos_petroleo_a12","Insumos (fertilizantes)",3.88
+"XGBoost + exog",1,"d_l0","Propias del IPAP (rezagos y calendario)",8.17
+"XGBoost + exog",1,"d_l1","Propias del IPAP (rezagos y calendario)",1.5
+"XGBoost + exog",1,"d_l2","Propias del IPAP (rezagos y calendario)",1.51
+"XGBoost + exog",1,"d_l3","Propias del IPAP (rezagos y calendario)",1.51
+"XGBoost + exog",1,"d_l4","Propias del IPAP (rezagos y calendario)",2.31
+"XGBoost + exog",1,"d_l5","Propias del IPAP (rezagos y calendario)",1.61
+"XGBoost + exog",1,"d_ma3","Propias del IPAP (rezagos y calendario)",5.82
+"XGBoost + exog",1,"d_ma6","Propias del IPAP (rezagos y calendario)",3.51
+"XGBoost + exog",1,"d_ma12","Propias del IPAP (rezagos y calendario)",0.64
+"XGBoost + exog",1,"dev_nivel","Propias del IPAP (rezagos y calendario)",0.14
+"XGBoost + exog",1,"m_sin","Propias del IPAP (rezagos y calendario)",1.88
+"XGBoost + exog",1,"m_cos","Propias del IPAP (rezagos y calendario)",4.79
+"XGBoost + exog",1,"trm_d_l0","TRM",3.16
+"XGBoost + exog",1,"trm_d_l1","TRM",0.23
+"XGBoost + exog",1,"trm_d_l2","TRM",0.6
+"XGBoost + exog",1,"trm_d_l3","TRM",1.65
+"XGBoost + exog",1,"trm_d_l4","TRM",1.6
+"XGBoost + exog",1,"trm_d_l5","TRM",2.38
+"XGBoost + exog",1,"trm_a12","TRM",0.17
+"XGBoost + exog",1,"trm_dev12","TRM",1.89
+"XGBoost + exog",1,"ipc_d_l0","IPC no durables",11.23
+"XGBoost + exog",1,"ipc_d_l1","IPC no durables",0.39
+"XGBoost + exog",1,"ipc_d_l2","IPC no durables",0.13
+"XGBoost + exog",1,"ipc_d_l3","IPC no durables",1.24
+"XGBoost + exog",1,"ipc_d_l4","IPC no durables",2.5
+"XGBoost + exog",1,"ipc_d_l5","IPC no durables",5.33
+"XGBoost + exog",1,"ipc_a12","IPC no durables",0.39
+"XGBoost + exog",1,"ise_a12_l0","ISE agro",1.09
+"XGBoost + exog",1,"ise_a12_l3","ISE agro",0.39
+"XGBoost + exog",1,"fao_total_d_l0","FAO alimentos",0.83
+"XGBoost + exog",1,"fao_total_a12","FAO alimentos",0.67
+"XGBoost + exog",1,"fao_carne_a12","FAO alimentos",0.31
+"XGBoost + exog",1,"fao_lacteos_a12","FAO alimentos",0.84
+"XGBoost + exog",1,"fao_cereales_a12","FAO alimentos",0.37
+"XGBoost + exog",1,"fao_aceites_a12","FAO alimentos",0.45
+"XGBoost + exog",1,"fao_azucar_a12","FAO alimentos",4.02
+"XGBoost + exog",1,"clima_anom_l0","Clima (lluvia)",0.41
+"XGBoost + exog",1,"clima_3m","Clima (lluvia)",0.37
+"XGBoost + exog",1,"clima_6m","Clima (lluvia)",5.34
+"XGBoost + exog",1,"insumos_fert_d_l0","Insumos (fertilizantes)",1.91
+"XGBoost + exog",1,"insumos_fert_d_l1","Insumos (fertilizantes)",0.38
+"XGBoost + exog",1,"insumos_fert_d_l2","Insumos (fertilizantes)",2.5
+"XGBoost + exog",1,"insumos_fert_d_l3","Insumos (fertilizantes)",1.11
+"XGBoost + exog",1,"insumos_fert_d_l4","Insumos (fertilizantes)",0.87
+"XGBoost + exog",1,"insumos_fert_d_l5","Insumos (fertilizantes)",9.42
+"XGBoost + exog",1,"insumos_fert_a12","Insumos (fertilizantes)",1.95
+"XGBoost + exog",1,"insumos_petroleo_a12","Insumos (fertilizantes)",0.48
+"XGBoost + exog",6,"d_l0","Propias del IPAP (rezagos y calendario)",1.61
+"XGBoost + exog",6,"d_l1","Propias del IPAP (rezagos y calendario)",0.61
+"XGBoost + exog",6,"d_l2","Propias del IPAP (rezagos y calendario)",1.05
+"XGBoost + exog",6,"d_l3","Propias del IPAP (rezagos y calendario)",1.89
+"XGBoost + exog",6,"d_l4","Propias del IPAP (rezagos y calendario)",0.52
+"XGBoost + exog",6,"d_l5","Propias del IPAP (rezagos y calendario)",0.85
+"XGBoost + exog",6,"d_ma3","Propias del IPAP (rezagos y calendario)",1.2
+"XGBoost + exog",6,"d_ma6","Propias del IPAP (rezagos y calendario)",0.75
+"XGBoost + exog",6,"d_ma12","Propias del IPAP (rezagos y calendario)",0.42
+"XGBoost + exog",6,"dev_nivel","Propias del IPAP (rezagos y calendario)",1.65
+"XGBoost + exog",6,"m_sin","Propias del IPAP (rezagos y calendario)",7.55
+"XGBoost + exog",6,"m_cos","Propias del IPAP (rezagos y calendario)",7.84
+"XGBoost + exog",6,"trm_d_l0","TRM",0.75
+"XGBoost + exog",6,"trm_d_l1","TRM",0.3
+"XGBoost + exog",6,"trm_d_l2","TRM",0.29
+"XGBoost + exog",6,"trm_d_l3","TRM",0.05
+"XGBoost + exog",6,"trm_d_l4","TRM",0.23
+"XGBoost + exog",6,"trm_d_l5","TRM",0.39
+"XGBoost + exog",6,"trm_a12","TRM",2.85
+"XGBoost + exog",6,"trm_dev12","TRM",4.82
+"XGBoost + exog",6,"ipc_d_l0","IPC no durables",0.62
+"XGBoost + exog",6,"ipc_d_l1","IPC no durables",0.78
+"XGBoost + exog",6,"ipc_d_l2","IPC no durables",0.78
+"XGBoost + exog",6,"ipc_d_l3","IPC no durables",0
+"XGBoost + exog",6,"ipc_d_l4","IPC no durables",0.23
+"XGBoost + exog",6,"ipc_d_l5","IPC no durables",0.18
+"XGBoost + exog",6,"ipc_a12","IPC no durables",0.14
+"XGBoost + exog",6,"ise_a12_l0","ISE agro",0.39
+"XGBoost + exog",6,"ise_a12_l3","ISE agro",1
+"XGBoost + exog",6,"fao_total_d_l0","FAO alimentos",0.09
+"XGBoost + exog",6,"fao_total_a12","FAO alimentos",1.87
+"XGBoost + exog",6,"fao_carne_a12","FAO alimentos",0.5
+"XGBoost + exog",6,"fao_lacteos_a12","FAO alimentos",1.26
+"XGBoost + exog",6,"fao_cereales_a12","FAO alimentos",6.99
+"XGBoost + exog",6,"fao_aceites_a12","FAO alimentos",1.67
+"XGBoost + exog",6,"fao_azucar_a12","FAO alimentos",0.84
+"XGBoost + exog",6,"clima_anom_l0","Clima (lluvia)",3.06
+"XGBoost + exog",6,"clima_3m","Clima (lluvia)",14.82
+"XGBoost + exog",6,"clima_6m","Clima (lluvia)",10.95
+"XGBoost + exog",6,"insumos_fert_d_l0","Insumos (fertilizantes)",0.76
+"XGBoost + exog",6,"insumos_fert_d_l1","Insumos (fertilizantes)",0.72
+"XGBoost + exog",6,"insumos_fert_d_l2","Insumos (fertilizantes)",0.55
+"XGBoost + exog",6,"insumos_fert_d_l3","Insumos (fertilizantes)",1.57
+"XGBoost + exog",6,"insumos_fert_d_l4","Insumos (fertilizantes)",1.33
+"XGBoost + exog",6,"insumos_fert_d_l5","Insumos (fertilizantes)",1.67
+"XGBoost + exog",6,"insumos_fert_a12","Insumos (fertilizantes)",11.05
+"XGBoost + exog",6,"insumos_petroleo_a12","Insumos (fertilizantes)",0.55
+"XGBoost + exog",12,"d_l0","Propias del IPAP (rezagos y calendario)",0.68
+"XGBoost + exog",12,"d_l1","Propias del IPAP (rezagos y calendario)",0.05
+"XGBoost + exog",12,"d_l2","Propias del IPAP (rezagos y calendario)",0.24
+"XGBoost + exog",12,"d_l3","Propias del IPAP (rezagos y calendario)",0.18
+"XGBoost + exog",12,"d_l4","Propias del IPAP (rezagos y calendario)",0.25
+"XGBoost + exog",12,"d_l5","Propias del IPAP (rezagos y calendario)",0.01
+"XGBoost + exog",12,"d_ma3","Propias del IPAP (rezagos y calendario)",1.5
+"XGBoost + exog",12,"d_ma6","Propias del IPAP (rezagos y calendario)",0.26
+"XGBoost + exog",12,"d_ma12","Propias del IPAP (rezagos y calendario)",0.33
+"XGBoost + exog",12,"dev_nivel","Propias del IPAP (rezagos y calendario)",0.53
+"XGBoost + exog",12,"m_sin","Propias del IPAP (rezagos y calendario)",0.26
+"XGBoost + exog",12,"m_cos","Propias del IPAP (rezagos y calendario)",0.01
+"XGBoost + exog",12,"trm_d_l0","TRM",0.06
+"XGBoost + exog",12,"trm_d_l1","TRM",0.3
+"XGBoost + exog",12,"trm_d_l2","TRM",0.42
+"XGBoost + exog",12,"trm_d_l3","TRM",0.17
+"XGBoost + exog",12,"trm_d_l4","TRM",0.08
+"XGBoost + exog",12,"trm_d_l5","TRM",0.02
+"XGBoost + exog",12,"trm_a12","TRM",1.17
+"XGBoost + exog",12,"trm_dev12","TRM",4.69
+"XGBoost + exog",12,"ipc_d_l0","IPC no durables",0.32
+"XGBoost + exog",12,"ipc_d_l1","IPC no durables",0.55
+"XGBoost + exog",12,"ipc_d_l2","IPC no durables",0.39
+"XGBoost + exog",12,"ipc_d_l3","IPC no durables",0.32
+"XGBoost + exog",12,"ipc_d_l4","IPC no durables",0.64
+"XGBoost + exog",12,"ipc_d_l5","IPC no durables",0.2
+"XGBoost + exog",12,"ipc_a12","IPC no durables",1.93
+"XGBoost + exog",12,"ise_a12_l0","ISE agro",3.84
+"XGBoost + exog",12,"ise_a12_l3","ISE agro",13.21
+"XGBoost + exog",12,"fao_total_d_l0","FAO alimentos",0.68
+"XGBoost + exog",12,"fao_total_a12","FAO alimentos",0.54
+"XGBoost + exog",12,"fao_carne_a12","FAO alimentos",0.4
+"XGBoost + exog",12,"fao_lacteos_a12","FAO alimentos",8.74
+"XGBoost + exog",12,"fao_cereales_a12","FAO alimentos",11.27
+"XGBoost + exog",12,"fao_aceites_a12","FAO alimentos",9.15
+"XGBoost + exog",12,"fao_azucar_a12","FAO alimentos",0.31
+"XGBoost + exog",12,"clima_anom_l0","Clima (lluvia)",1.64
+"XGBoost + exog",12,"clima_3m","Clima (lluvia)",6.7
+"XGBoost + exog",12,"clima_6m","Clima (lluvia)",11.8
+"XGBoost + exog",12,"insumos_fert_d_l0","Insumos (fertilizantes)",1.45
+"XGBoost + exog",12,"insumos_fert_d_l1","Insumos (fertilizantes)",2.18
+"XGBoost + exog",12,"insumos_fert_d_l2","Insumos (fertilizantes)",1.63
+"XGBoost + exog",12,"insumos_fert_d_l3","Insumos (fertilizantes)",0.71
+"XGBoost + exog",12,"insumos_fert_d_l4","Insumos (fertilizantes)",0.78
+"XGBoost + exog",12,"insumos_fert_d_l5","Insumos (fertilizantes)",2.22
+"XGBoost + exog",12,"insumos_fert_a12","Insumos (fertilizantes)",6.38
+"XGBoost + exog",12,"insumos_petroleo_a12","Insumos (fertilizantes)",0.82
