@@ -193,4 +193,5 @@ La lista completa, con las fuentes de datos y el software, está en **[04_docume
 ## Equipo
 
 - Juan Camilo Jules Oviedo
-- _(completar con los demás integrantes del equipo)_
+- Angel Esteban Bonilla Escamilla
+- David Steven Parra Almeida
