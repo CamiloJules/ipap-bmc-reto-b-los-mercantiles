@@ -178,4 +178,3 @@ La lista completa de referencias está al comienzo del script. Las principales:
 - Juan Camilo Jules Oviedo
 - Angel Esteban Bonilla Escamilla
 - David Steven Parra Almeida
-- 
