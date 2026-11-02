@@ -1,0 +1,17 @@
+# Archivos de sesión de R y RStudio
+.Rhistory
+.RData
+.Rapp.history
+.Ruserdata
+.Rproj.user/
+
+# Gráfico que R crea cuando el script se corre con Rscript (fuera de RStudio)
+Rplots.pdf
+
+# Archivos temporales de Excel (se crean mientras el archivo está abierto)
+~$*.xlsx
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
