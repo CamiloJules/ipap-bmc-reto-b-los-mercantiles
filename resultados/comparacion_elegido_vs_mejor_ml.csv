@@ -1,3 +1,0 @@
-"Modelo","Tipo","MAPE_validacion","MAPE_prueba","RMSE_prueba","Origenes_val_ganados"
-"Promedio (todos)","Promedio",7.14,0.85,2.88,7
-"XGBoost + exog","Machine learning",6.75,1.4,4.59,9
