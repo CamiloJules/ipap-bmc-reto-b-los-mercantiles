@@ -684,6 +684,7 @@ ml_forecast <- function(ly, mes, H, tipo, par, ex = NULL) {
       p <- predict(fit, data = as.data.frame(xnew))$predictions
     } else {
       dtr <- xgb.DMatrix(X[ok, , drop = FALSE], label = yh[ok])
+      set.seed(SEED + h)   # xgboost 1.x ignora el parámetro seed y usa el generador de R
       fit <- xgb.train(
         params = list(objective = 'reg:squarederror', max_depth = par$depth,
                       eta = par$eta, subsample = 0.8, colsample_bytree = 0.8,
@@ -1041,6 +1042,7 @@ imp_modelo <- function(tipo, par, etiqueta) {
                     splitrule = if (is.null(par$split)) 'variance' else par$split)
       imp <- pmax(fit$variable.importance, 0)
     } else {
+      set.seed(SEED + h)   # xgboost 1.x ignora el parámetro seed y usa el generador de R
       fit <- xgb.train(
         params = list(objective = 'reg:squarederror', max_depth = par$depth,
                       eta = par$eta, subsample = 0.8, colsample_bytree = 0.8,
