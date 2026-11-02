@@ -30,7 +30,7 @@ La base está en [`datos/IPAP_De_completa.xlsx`](../datos/IPAP_De_completa.xlsx)
 
 ## Estadísticas descriptivas
 
-Calculadas sobre toda la base (enero de 2011 a septiembre de 2026).
+Calculadas sobre toda la base (enero de 2011 a septiembre de 2026) con el script [`descriptivas.R`](../descriptivas.R). La tabla completa, con el mes del mínimo y del máximo de cada variable, está en [`resultados/descriptivas/estadisticas_descriptivas.csv`](../resultados/descriptivas/estadisticas_descriptivas.csv).
 
 | Variable | Periodo con datos | N | Faltantes | Media | Desv. est. | Mínimo | Mediana | Máximo |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
@@ -51,6 +51,12 @@ Calculadas sobre toda la base (enero de 2011 a septiembre de 2026).
 | `petroleo_usd` | 2011-01 a 2026-09 | 189 | 0 | 75.23 | 22.93 | 21.00 | 73.30 | 117.80 |
 
 El IPAP pasa de 89.15 en enero de 2011 a 254.74 en septiembre de 2026. Su mínimo (88.39) es de octubre de 2013 y su máximo (256.72) de marzo de 2026.
+
+### Gráficos de las variables
+
+![IPAP](../resultados/descriptivas/g0_ipap.png)
+
+![Variables de la base](../resultados/descriptivas/g0_variables.png)
 
 ## Cómo entra cada variable a los modelos
 

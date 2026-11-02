@@ -23,7 +23,8 @@ Las tablas completas, la comparación de los modelos y los gráficos están en *
 ipap-bmc-reto-b/
 ├── README.md                 ← este archivo: qué es el proyecto y cómo correrlo
 ├── RESULTADOS.md             ← resultados: tablas, pronóstico y gráficos
-├── ipap_concurso_final.R     ← el código completo (un solo script)
+├── ipap_concurso_final.R     ← el código del modelo (un solo script)
+├── descriptivas.R            ← estadísticas descriptivas y gráficos de las variables
 ├── ipap-bmc-reto-b.Rproj     ← proyecto de RStudio (fija la carpeta de trabajo)
 ├── datos/
 │   └── IPAP_De_completa.xlsx ← base mensual, ene-2011 a sep-2026
@@ -31,6 +32,7 @@ ipap-bmc-reto-b/
 │   ├── DATOS.md              ← diccionario de variables, fuentes y estadísticas descriptivas
 │   └── REPRODUCIBILIDAD.md   ← versiones, tiempos, semillas y cómo verificar los resultados
 ├── resultados/               ← lo que genera el código (CSV y PNG)
+│   └── descriptivas/         ← lo que genera descriptivas.R
 ├── .gitignore                ← archivos que no se suben a GitHub
 └── .gitattributes            ← finales de línea consistentes entre sistemas operativos
 ```
@@ -49,7 +51,9 @@ Una base mensual de **189 meses (enero de 2011 a septiembre de 2026)** con el IP
 | Clima | Anomalía de lluvia del mes y acumulada a 3 y 6 meses (20 departamentos, ponderada por su peso en el IPAP) | NASA POWER |
 | Insumos | Fertilizantes (USD por tonelada) y petróleo (USD por barril) | Banco Mundial, Pink Sheet |
 
-El diccionario completo, las unidades, las estadísticas descriptivas y cómo entra cada variable a los modelos están en **[docs/DATOS.md](docs/DATOS.md)**.
+El diccionario completo, las unidades, las estadísticas descriptivas y cómo entra cada variable a los modelos están en **[docs/DATOS.md](docs/DATOS.md)**. Las estadísticas y los gráficos de cada variable los genera el script [`descriptivas.R`](descriptivas.R), que es independiente del modelo y tarda unos segundos.
+
+![Variables de la base](resultados/descriptivas/g0_variables.png)
 
 También se probaron el ONI (El Niño y La Niña) y el IPP agropecuario, pero se quitaron porque no mejoraban el pronóstico.
 
@@ -140,6 +144,7 @@ Con esos cambios los resultados **no** son los oficiales; sirven solo para revis
 
 - **En la consola:** pruebas de raíz unitaria, cointegración, supuestos, el ajuste de hiperparámetros, la ablación, la tabla comparativa de modelos, la prueba histórica y el pronóstico.
 - **En la carpeta `resultados/`:** 18 tablas CSV y 5 gráficos PNG. Además, el repositorio incluye `salida_consola.txt`, la copia de lo que imprimió la consola en la corrida publicada. Cada archivo está explicado en [RESULTADOS.md](RESULTADOS.md#archivos-de-la-carpeta-resultados).
+- **`descriptivas.R`** se corre aparte, igual que el script principal (con Source en RStudio o con `Rscript descriptivas.R`). Guarda en `resultados/descriptivas/` la tabla de estadísticas descriptivas y dos gráficos: el IPAP y las 15 variables.
 
 ## Reproducibilidad
 
@@ -168,9 +173,7 @@ La lista completa de referencias está al comienzo del script. Las principales:
 - Johansen, S. (1991). Estimation and hypothesis testing of cointegration vectors in Gaussian vector autoregressive models. *Econometrica*, 59(6), 1551-1580.
 - Timmermann, A. (2006). Forecast combinations. En *Handbook of Economic Forecasting*, vol. 1, cap. 4, 135-196.
 
-## Equipo Los Mercantiles
+## Equipo
 
 - Juan Camilo Jules Oviedo
-- Angel Esteban Bonilla Escamilla
-- David Steven Parra Almeida
-
+- _(completar con los demás integrantes del equipo)_

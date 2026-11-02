@@ -305,7 +305,7 @@ Los residuos no tienen autocorrelación, que es el supuesto clave para que el pr
 
 ## Archivos de la carpeta resultados
 
-Todos los genera `ipap_concurso_final.R`, salvo `salida_consola.txt`, que es la copia de lo que el script imprime en la consola.
+Todos los genera `ipap_concurso_final.R`, salvo `salida_consola.txt`, que es la copia de lo que el script imprime en la consola, y la subcarpeta `descriptivas/`, que la genera `descriptivas.R`.
 
 ### Tablas principales
 
@@ -365,3 +365,11 @@ Todos los genera `ipap_concurso_final.R`, salvo `salida_consola.txt`, que es la 
 | Archivo | Contenido |
 |---|---|
 | `salida_consola.txt` | Todo lo que imprime el script: pruebas de raíz unitaria, Johansen, supuestos, búsqueda de hiperparámetros, ablación y tablas finales |
+
+### Estadísticas descriptivas (subcarpeta `descriptivas/`)
+
+| Archivo | Contenido |
+|---|---|
+| `descriptivas/estadisticas_descriptivas.csv` | N, faltantes, media, desviación estándar, mínimo, mediana, máximo y mes del mínimo y del máximo de las 15 variables |
+| `descriptivas/g0_ipap.png` | El IPAP de enero de 2011 a septiembre de 2026 |
+| `descriptivas/g0_variables.png` | Las 15 variables de la base, cada una en su propio panel |
